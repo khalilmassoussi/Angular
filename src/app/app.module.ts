@@ -9,6 +9,7 @@ import {PatientEditComponent} from './patient-edit/patient-edit.component';
 import {AppRoutingModule} from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     declarations: [
@@ -23,6 +24,7 @@ import {FormsModule} from '@angular/forms';
         AppRoutingModule,
         FormsModule,
         HttpClientModule,
+        BrowserAnimationsModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
