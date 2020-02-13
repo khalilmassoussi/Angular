@@ -8,8 +8,19 @@ import {PatientAddComponent} from './patient-add/patient-add.component';
 import {PatientEditComponent} from './patient-edit/patient-edit.component';
 import {AppRoutingModule} from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
-import {FormsModule} from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {
+    MatButtonModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatPaginatorModule,
+    MatProgressSpinnerModule,
+    MatSortModule,
+    MatTableModule
+} from '@angular/material';
 
 @NgModule({
     declarations: [
@@ -25,6 +36,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         FormsModule,
         HttpClientModule,
         BrowserAnimationsModule,
+        ReactiveFormsModule,
+        MatInputModule,
+        MatPaginatorModule,
+        MatProgressSpinnerModule,
+        MatSortModule,
+        MatTableModule,
+        MatIconModule,
+        MatButtonModule,
+        MatCardModule,
+        MatFormFieldModule
     ],
     providers: [],
     bootstrap: [AppComponent]

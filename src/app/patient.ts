@@ -1,9 +1,9 @@
 export class Patient {
     id: number;
-    name: string;
-    Aftername: string;
-    Phone: number;
-    Address: string;
+    Nom: string;
+    Prenom: string;
+    NumTel: number;
+    adress: string;
     BirthDate: Date;
     isActive: boolean;
 
